@@ -3,7 +3,7 @@ CC=gcc
 CXX=g++
 
 bench0:
-	python bench0.py ../data/input16
+	python3 bench0.py ../data/input16
 
 bench_pypy_purepy:
 	pypy bench_purepy.py ../data/input16
